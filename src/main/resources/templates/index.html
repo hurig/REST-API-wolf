@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="hu" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3>RESTful WebServices</h3>
+<ul>
+    <li><a href="/wolfs" target="_blank">wolfs</a></li>
+    <li><a href="/countries" target="_blank">countries</a></li>
+</ul>
+<h3>Forms</h3>
+<form method="post" action="/wolfs">
+    <label>Name</label>
+    <input type="text" name="name">
+    <br>
+    <label>Rank</label>
+    <input type="number" name="rank" min="1" max="100" value="1">
+    <br>
+    <button>New Wolf</button>
+</form>
+</body>
+</html>

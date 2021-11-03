@@ -1,0 +1,7 @@
+RESTful Web Services
+		                                Requestek
+					                method 	path
+- minden ország lekérdezése     	GET  	/countries
+- új ország létrehozása		        POST 	/countries
+- egyetlen ország lekérdezése	    GET  	/countries/{id}
+- ország törlése		            DELETE 	/countries/{id}
